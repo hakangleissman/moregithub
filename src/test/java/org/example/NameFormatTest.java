@@ -24,6 +24,7 @@ class NameFormatTest {
 
     @Test
     public void testFalseInput() {
+
         Assertions.assertTrue(nameFormat.toNameFormatBoolean("h"));
     }
 
